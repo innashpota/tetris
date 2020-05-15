@@ -34,7 +34,40 @@ body {
 
 #game {
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 24px;
+    text-align: center;
     width: 320px;
     margin: auto;
+}
+
+#nextTetro {
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    font-size: 0;
+}
+
+#gameOver {
+    font-size: 100px;
+    color: red;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#start {
+    color: blue;
+}
+
+#pause {
+    color: green;
 }
